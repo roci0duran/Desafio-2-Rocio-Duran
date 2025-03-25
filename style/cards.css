@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+.card{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #006494;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card{
+    background-color: #728da5;
+}
+
+.info{
+    font-family: "Dancing Script", cursive;
+    color: #0A100D;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cardtwo{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #78290F;
+}
+
+.cardtwo img{
+    width: 100%;
+}
+
+.cardtwo{
+    background-color: #FFECD1;
+}   
+
+.cardthree{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px darkred;
+}
+
+.cardthree img{
+    width: 100%;
+}
+
+.cardthree{
+    background-color: #AB2346;
+}
+
+.cardfour{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px darkred;
+}
+
+.cardfour img{
+    width: 100%;
+}
+
+.cardfour{
+    background-color: #A71D31;
+}
+
+.card h1{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.cardtwo h1{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+
+.cardthree h1{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.cardfour h1{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+h1{
+    font-family: "Dancing Script", cursive;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+}
+
+.producto h1{
+    text-align: center;
+}
+
+.producto img{
+    display: flex;
+    justify-content: flex-start;
+    width: 400px;
+    margin-left: 400px;
+}
+
+.producto p{
+    font-size: large;
+    text-align: right;
+}

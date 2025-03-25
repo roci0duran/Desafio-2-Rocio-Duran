@@ -1,40 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 body{
-    background-color: #D6D5C9;
+    background-image: url(../img/vintage.avif);
+    background-size: 100%;
+}
+
+.slogan{
+    text-shadow: 0px 5px 5px #904E55;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    color: #0A100D;
 }
 
 header{
     background-color: #B9BAA3;
 }
 
-header h1{
-    font-family: "Dancing Script", cursive; 
-}
-
 nav a{
-    display: flex;
-    flex-direction: row-reverse;
-    display: inline-flex;
-    font-size: 19px;
     color: black;
     text-decoration: none;
 }
 
+nav{
+    padding: 20px;
+    font-size: 19px;
+    display: inline;
+    text-align: center;
+}
+
 nav li{
     font-size: 19px;
-    display: flex;
     display: inline;    
     padding: 60px;
-    flex-direction: row-reverse;
+    text-align: center;
 }
 
 .logo{
-    width: 150px;
+    width: 100px;
     align-items: left;
 }
 
 nav a:hover{
     text-decoration: underline;
     color: black;
+}
+
+footer{
+    background-color: #B9BAA3;
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    padding: 10px 15px;
+    background-color: #F2EFE9;
+    border-color: #904E55;
 }
